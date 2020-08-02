@@ -23,7 +23,6 @@ simulate = function () {
     //jump();
     //stopjump();
     walk();
-    if(tNow-lastTimeWalked==500){stopwalk();};
     //if(tNow-lastTimeJumped==500){stopjump();};
     //console.log(window.performance.now());
     //if(window.performance.now()-lastTimeJumped>=500){jump()};
