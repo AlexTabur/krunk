@@ -17,4 +17,6 @@ simulate = function () {
     walk();
 };
 
-window.onload=function(){setInterval(squat(),500)}
+for (var i = 0; i < document.getElementsByTagName("canvas").length; i++) {
+    document.getElementsByTagName("canvas")[i]
+}
