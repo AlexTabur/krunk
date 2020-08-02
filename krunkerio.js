@@ -13,6 +13,7 @@ stopwalk=function(){document.getElementsByTagName("body")[0].dispatchEvent(ev2st
 jump = function(){document.getElementsByTagName("body")[0].dispatchEvent(ev3);},
 stopjump=function(){document.getElementsByTagName("body")[0].dispatchEvent(ev3stop)},
 squat = function(){document.getElementsByTagName("body")[0].dispatchEvent(ev4);},
+<<<<<<< HEAD
 simulate = function () {
     walk();
 };
@@ -20,3 +21,5 @@ simulate = function () {
 for (var i = 0; i < document.getElementsByTagName("canvas").length; i++) {
     document.getElementsByTagName("canvas")[i]
 }
+=======
+>>>>>>> 6989fee108291639a854ca5b9a47421d76a8aab4
