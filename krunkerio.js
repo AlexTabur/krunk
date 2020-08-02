@@ -13,7 +13,3 @@ stopwalk=function(){document.getElementsByTagName("body")[0].dispatchEvent(ev2st
 jump = function(){document.getElementsByTagName("body")[0].dispatchEvent(ev3);},
 stopjump=function(){document.getElementsByTagName("body")[0].dispatchEvent(ev3stop)},
 squat = function(){document.getElementsByTagName("body")[0].dispatchEvent(ev4);},
-simulate = function () {
-    walk();
-};
-window.onload=function(){setInterval(squat(),50)}
