@@ -36,5 +36,5 @@ window.main = function () {
     //window.requestAnimationFrame(jump);
     tAfter=tNow
 }
-window.onload=function(){setInterval(jump(),500);
-window.main();tNow=window.performance.now()}
+window.onload=function(){setInterval(walk(),500);}
+//window.main();tNow=window.performance.now()}
