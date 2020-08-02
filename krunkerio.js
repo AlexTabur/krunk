@@ -16,5 +16,4 @@ squat = function(){document.getElementsByTagName("body")[0].dispatchEvent(ev4);}
 simulate = function () {
     walk();
 };
-
 window.onload=function(){setInterval(squat(),500)}
