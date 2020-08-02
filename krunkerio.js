@@ -20,10 +20,11 @@ simulate = function () {
     //}
     //console.log(tNow);
     //squat();
-    //jump();
-    //stopjump();
+    jump();
+    stopjump();
     walk();
-    //if(tNow-lastTimeJumped==500){stopjump();};
+    if(tNow-lastTimeWalked==500){stopwalk();};
+    if(tNow-lastTimeJumped==500){stopjump();};
     //console.log(window.performance.now());
     //if(window.performance.now()-lastTimeJumped>=500){jump()};
     //console.log("simulating")
@@ -36,5 +37,5 @@ window.main = function () {
     //window.requestAnimationFrame(jump);
     tAfter=tNow
 }
-window.onload=function(){setInterval(walk(),500);}
-//window.main();tNow=window.performance.now()}
+window.onload=function(){//jump();walk();//setInterval(jump(),500);
+window.main();tNow=window.performance.now()}
